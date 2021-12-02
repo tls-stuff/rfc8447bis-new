@@ -86,7 +86,7 @@ use the registry names with the "TLS" prefix.
 # Aligning with RFC 8126
 
 Many of the TLS-related IANA registries had the registration procedure
-"IETF Consensus" which was changed to "IETF Review" by {{!8126}}.
+"IETF Consensus" which was changed to "IETF Review" by {{!RFC8126}}.
 RFC8126-defined .  To align with the new terminology,
 IANA [SHALL update/has updated] the following registries to use "IETF
 Review":
