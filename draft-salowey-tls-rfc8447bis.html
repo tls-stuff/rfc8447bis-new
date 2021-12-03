@@ -1258,7 +1258,7 @@ use the registry names with the "TLS" prefix.<a href="#section-3-3" class="pilcr
       </h2>
 <p id="section-4-1">Many of the TLS-related IANA registries had the registration procedure
 "IETF Consensus", which was changed to "IETF Review" by <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span>.
-RFC8126-defined .  To align with the new terminology,
+To align with the new terminology,
 IANA [<span class="bcp14">SHALL</span> update/has updated] the following registries to "IETF
 Review":<a href="#section-4-1" class="pilcrow">¶</a></p>
 <ul class="normal">
@@ -1344,7 +1344,7 @@ column for entry 35.<a href="#section-6-2.2" class="pilcrow">¶</a>
 extensions was too strict.  Based on WG consensus, the decision was
 taken to change the registration policy to Specification Required
 <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span> while reserving a small part of the code space for
-experimental and private use.  Therefore, IANA [<span class="bcp14">SHALL</span> update/has
+private use.  Therefore, IANA [<span class="bcp14">SHALL</span> update/has
 updated] the TLS ExtensionType Values registry as follows:<a href="#section-7-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-7-2.1">
@@ -1492,62 +1492,60 @@ IESG Approval is <span class="bcp14">REQUIRED</span> for a Y-&gt;N transition.<a
         </tbody>
       </table>
 <p id="section-7-7">IANA [<span class="bcp14">SHALL</span> update/has added] the following notes:<a href="#section-7-7" class="pilcrow">¶</a></p>
-<p id="section-7-8">Note:  The role of the designated expert is described in <span>[<a href="#RFC8447" class="xref">RFC8447</a>]</span><a href="#section-7-8" class="pilcrow">¶</a></p>
-<span class="break"></span><dl class="dlParallel" id="section-7-9">
-        <dt id="section-7-9.1">
+<span class="break"></span><dl class="dlParallel" id="section-7-8">
+        <dt id="section-7-8.1">
 Note:  </dt>
-        <dd style="margin-left: 1.5em" id="section-7-9.2">
-          <p id="section-7-9.2.1">The role of the designated expert is described in [this-RFC].
+        <dd style="margin-left: 1.5em" id="section-7-8.2">
+          <p id="section-7-8.2.1">The role of the designated expert is described in <span>[<a href="#RFC8447" class="xref">RFC8447</a>]</span>
 The designated expert <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span> ensures that the specification is
 publicly available.  It is sufficient to have an Internet-Draft (that is posted and never
 published as an RFC) or a document from another standards body, industry
 consortium, university site, etc.  The expert may provide
 more in-depth reviews, but their approval should not be taken as an
-endorsement of the extension.<a href="#section-7-9.2.1" class="pilcrow">¶</a></p>
+endorsement of the extension.<a href="#section-7-8.2.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-7-9.3">
+<dt id="section-7-8.3">
 Note:  </dt>
-        <dd style="margin-left: 1.5em" id="section-7-9.4">
-          <p id="section-7-9.4.1">As specified in <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span>, assignments made in the Private Use
+        <dd style="margin-left: 1.5em" id="section-7-8.4">
+          <p id="section-7-8.4.1">As specified in <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span>, assignments made in the Private Use
 space are not generally useful for broad interoperability.  It is
 the responsibility of those making use of the Private Use range to
 ensure that no conflicts occur (within the intended scope of use).
-For widespread experiments, temporary reservations are available.<a href="#section-7-9.4.1" class="pilcrow">¶</a></p>
+For widespread experiments, temporary reservations are available.<a href="#section-7-8.4.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-7-9.5">
+<dt id="section-7-8.5">
 Note:  </dt>
-        <dd style="margin-left: 1.5em" id="section-7-9.6">
-          <p id="section-7-9.6.1">If an item is not marked as "Recommended" it does not necessarily mean
+        <dd style="margin-left: 1.5em" id="section-7-8.6">
+          <p id="section-7-8.6.1">If an item is not marked as "Recommended", it does not necessarily mean
 that it is flawed; rather, it indicates that the item either has not
 been through the IETF consensus process, has limited applicability, or
-is intended only for specific use cases.<a href="#section-7-9.6.1" class="pilcrow">¶</a></p>
+is intended only for specific use cases.<a href="#section-7-8.6.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
-<p id="section-7-10">NOTE:
-The extensions added by <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> are omitted from the above table;
+<p id="section-7-9">The extensions added by <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> are omitted from the above table;
 additionally, token_binding is omitted, since
 <span>[<a href="#I-D.ietf-tokbind-negotiation" class="xref">I-D.ietf-tokbind-negotiation</a>]</span> specifies the value of the "Recommended" column
-as for this extension.<a href="#section-7-10" class="pilcrow">¶</a></p>
-<p id="section-7-11"><span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> also uses the TLS ExtensionType Registry originally
+as for this extension.<a href="#section-7-9" class="pilcrow">¶</a></p>
+<p id="section-7-10"><span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> also uses the TLS ExtensionType Values registry originally
 created in <span>[<a href="#RFC4366" class="xref">RFC4366</a>]</span>. The following text is from <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> and is included
-here to ensure alignment between these specifications.<a href="#section-7-11" class="pilcrow">¶</a></p>
+here to ensure alignment between these specifications.<a href="#section-7-10" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-7-12.1">IANA [<span class="bcp14">SHALL</span> update/has updated] this registry to include the
+<li class="normal" id="section-7-11.1">IANA [<span class="bcp14">SHALL</span> update/has updated] this registry to include the
 "key_share", "pre_shared_key", "psk_key_exchange_modes",
 "early_data", "cookie", "supported_versions",
 "certificate_authorities", "oid_filters", "post_handshake_auth",
-and "signature_algorithms_certs", extensions with the values
-defined in <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> and the Recommended value of "Y".<a href="#section-7-12.1" class="pilcrow">¶</a>
+and "signature_algorithms_cert", extensions with the values
+defined in <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> and the "Recommended" value of "Y".<a href="#section-7-11.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-12.2">IANA [<span class="bcp14">SHALL</span> update/has updated] this registry to include a "TLS
+        <li class="normal" id="section-7-11.2">IANA [<span class="bcp14">SHALL</span> update/has updated] this registry to include a "TLS
 1.3" column that lists the messages in which the extension may
 appear.  This column [<span class="bcp14">SHALL</span> be/has been] initially populated from
 the table in Section 4.2 of <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> with any
 extension not listed there marked as "-" to indicate that it is not
-used by TLS 1.3.<a href="#section-7-12.2" class="pilcrow">¶</a>
+used by TLS 1.3.<a href="#section-7-11.2" class="pilcrow">¶</a>
 </li>
       </ul>
 </section>
@@ -1567,19 +1565,19 @@ follows:<a href="#section-8-1" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-8-2">
 <pre>
 Values with the first byte in the range 0-254 (decimal) are
-assigned via Specification Required {{RFC8126}}.  Values with the
-first byte 255 (decimal) are reserved for Private Use {{RFC8126}}.
+assigned via Specification Required {{RFC8126}} .  Values with the
+first byte 255 (decimal) are reserved for Private Use {{RFC8126}} .
 </pre><a href="#section-8-2" class="pilcrow">¶</a>
 </div>
 <p id="section-8-3">See <a href="#expert-pool" class="xref">Section 17</a> for additional information about the designated
 expert pool.<a href="#section-8-3" class="pilcrow">¶</a></p>
-<p id="section-8-4">The Cipher Suites registry has grown significantly and will continue to
+<p id="section-8-4">The TLS Cipher Suites registry has grown significantly and will continue to
 do so.  To better guide those not intimately involved in TLS, IANA
 [shall update/has updated] the TLS Cipher Suites registry as follows:<a href="#section-8-4" class="pilcrow">¶</a></p>
 <p id="section-8-5">[The following text needs to be update to reflect the new recommended policy]<a href="#section-8-5" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-8-6.1">
-          <p id="section-8-6.1.1">Add a "Recommended" column to the TLS Cipher Suites registry.  The
+          <p id="section-8-6.1.1">Added a "Recommended" column to the TLS Cipher Suites registry.  The
 cipher suites that follow in the two tables are marked as "Y". 
 All other cipher suites are marked as "N".  The "Recommended"
 column is assigned a value of "N" unless explicitly requested, and
@@ -1623,9 +1621,9 @@ TLS_DHE_PSK_WITH_AES_128_GCM_SHA256           | {0x00,0xAA}
 TLS_DHE_PSK_WITH_AES_256_GCM_SHA384           | {0x00,0xAB}
 TLS_DHE_PSK_WITH_AES_128_CCM                  | {0xC0,0xA6}
 TLS_DHE_PSK_WITH_AES_256_CCM                  | {0xC0,0xA7}
-TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256         | {TBD}
-TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384         | {TBD}
-TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256         | {TBD}
+TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256         | {0xD0,0x01}
+TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384         | {0xD0,0x02}
+TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256         | {0xD0,0x05}
 TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256   | {0xCC,0xAC}
 TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256     | {0xCC,0xAD}
 </pre><a href="#section-8-11" class="pilcrow">¶</a>
@@ -1732,7 +1730,7 @@ previous versions of TLS.  The "Recommended" column is assigned a value of "N"
 unless explicitly requested, and adding a value with a "Recommended" value of "Y"
 requires Standards Action <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span>.  IESG Approval is
 <span class="bcp14">REQUIRED</span> for a Y-&gt;N transition.<a href="#section-9-1" class="pilcrow">¶</a></p>
-<p id="section-9-2">IANA [<span class="bcp14">SHALL</span> add/has added] the following note:<a href="#section-9-2" class="pilcrow">¶</a></p>
+<p id="section-9-2">IANA [<span class="bcp14">SHALL</span> add/has added] the following notes:<a href="#section-9-2" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-9-3">
         <dt id="section-9-3.1">
 Note:  </dt>
@@ -1746,7 +1744,7 @@ is intended only for specific use cases.<a href="#section-9-3.2.1" class="pilcro
 <dt id="section-9-3.3">
 Note:  </dt>
         <dd style="margin-left: 1.5em" id="section-9-3.4">
-          <p id="section-9-3.4.1">The role of the designated expert is described in [this-RFC].
+          <p id="section-9-3.4.1">The role of the designated expert is described in <span>[<a href="#RFC8447" class="xref">RFC8447</a>]</span> .
 The designated expert <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span> ensures that the specification is
 publicly available.  It is sufficient to have an Internet-Draft (that is posted and never
 published as an RFC) or a document from another standards body, industry
@@ -1895,7 +1893,7 @@ EXPORTER: teap session key seed |         Y |
         <dt id="section-12-7.1">
 Note:  </dt>
         <dd style="margin-left: 1.5em" id="section-12-7.2">
-          <p id="section-12-7.2.1">The role of the designated expert is described in [this-RFC].
+          <p id="section-12-7.2.1">The role of the designated expert is described in <span>[<a href="#RFC8447" class="xref">RFC8447</a>]</span> .
 The designated expert <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span> ensures that the specification is
 publicly available.  It is sufficient to have an Internet-Draft
 (that is posted and never published as an RFC) or a document from
@@ -1932,7 +1930,7 @@ registry; the entry was omitted from the IANA instructions in
 <span>[<a href="#RFC7301" class="xref">RFC7301</a>]</span>:<a href="#section-13-1" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-13-2">
 <pre>
-120   no_application_protocol  Y  [RFC7301][this-RFC]
+120   no_application_protocol  Y  [RFC7301][RFC8447]
 </pre><a href="#section-13-2" class="pilcrow">¶</a>
 </div>
 </section>
@@ -1971,7 +1969,7 @@ expert pool.<a href="#section-14-3" class="pilcrow">¶</a></p>
         <dt id="section-14-5.1">
 Note:  </dt>
         <dd style="margin-left: 1.5em" id="section-14-5.2">
-          <p id="section-14-5.2.1">The role of the designature expert is described in [this-RFC].
+          <p id="section-14-5.2.1">The role of the designated expert is described in [this-RFC].
 The designated expert <span>[<a href="#RFC8126" class="xref">RFC8126</a>]</span> ensures that the specification is
 publicly available.  It is sufficient to have an Internet-Draft
     (that is posted and never published as an RFC) or a document from
