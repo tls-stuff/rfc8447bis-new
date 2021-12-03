@@ -12,7 +12,7 @@ Expires: 6 June 2022
 
 
                  IANA Registry Updates for TLS and DTLS
-                    draft-salowey-tls-rfc8447bis-00
+                    draft-salowey-tls-rfc8447bis-01
 
 Abstract
 
